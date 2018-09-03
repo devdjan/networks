@@ -7,7 +7,7 @@
 
 #define port   1100
 
-int main(){
+int main() {
   // create the socket
   int network_socket;
   network_socket = socket(AF_INET, SOCK_STREAM, 0);
